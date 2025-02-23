@@ -1,0 +1,52 @@
+body {
+    background-color: darkgray;
+}
+
+ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+li{
+    display: inline-flex;
+    padding: 5px;
+    margin: 10px;
+}
+
+div {
+    display:inline-flex;
+    text-align: justify;
+}
+
+h2 {
+    display:block;
+    margin: 10px;
+    padding: 5px;
+    height: auto;
+}
+
+article {
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+section#esportes {
+    background-color: green;
+}
+
+section#economia {
+    background-color: gold;
+}
+
+section#entretenimento {
+    background-color: blue;
+}
+
+section#tecnologia {
+    background-color: gray;
+}
