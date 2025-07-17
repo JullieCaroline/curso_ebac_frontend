@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(216, 216, 216);
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input#adicionar {
+    background-color: rgb(1, 189, 1);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 5px;
+}
+
+input.valores {
+    border: none;
+    border-bottom:  2px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+td, th {
+    text-align: center;
+    padding: 5px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-bottom: 2px solid rgb(97, 97, 97);
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin-top: 30px;
+}
+
+input {
+    margin-right: 15px;
+}
+
+img#logo {
+    width: 24px;
+}
+
+mark#vermelho {
+    background-color: red;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+mark#verde {
+    background-color: rgb(1, 189, 1);
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+img#aprovado, img#reprovado {
+    margin-left: 10px;
+    width: 20px;
+}

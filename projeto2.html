@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projeto2.css">
+    <title>Calculadora de Médias</title>
+</head>
+<body>
+    <h1> <img src="imagens/logo.png" id="logo"> Calculadora de médias</h1>
+    <form id="form">
+    <input type="text" name="nomeDaAtividade" placeholder="Nome da Atividade" id="materia" class="valores" required>
+    <input type="number" name="media" placeholder="0" id="media" class="valores"  min="0" max="10" required>
+    <input type="submit" value="Adicionar +" id="adicionar">
+    </form>
+    <table id="tabela">
+        <thead>
+            <tr id="cabeçalho">
+                <th>Nome da Atividade</td>
+                <th>Nota</td>
+                <th>Aprovado?</td>
+            </tr>
+        </thread>
+    </table>
+    <script src="projeto2.js"></script>
+</body>
+</html>
